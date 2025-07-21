@@ -1,0 +1,157 @@
+/* Basic Reset and Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and Logo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.logo {
+    height: 40px; /* Adjust as needed */
+}
+
+nav a {
+    text-decoration: none;
+    color: #555555;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #192A56;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #192A56;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #192A56;
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #192A56;
+    background-color: transparent;
+    border: 2px solid #192A56;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #192A56;
+    color: #FFFFFF;
+}
+
+.btn.btn-secondary {
+    color: #555555;
+    border-color: #CCCCCC;
+}
+
+.btn.btn-secondary:hover {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+/* Lists (for Tokenomics/Roadmap) */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #F9F9F9;
+    padding: 10px;
+    border-left: 3px solid #192A56;
+}
+
+code {
+    font-family: monospace;
+    background-color: #EAEAEA;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Footer and Community Links */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-top: 1px solid #EAEAEA;
+}
+
+.community-links a {
+    margin: 0 15px;
+}
+
+.community-links svg {
+    height: 24px;
+    width: 24px;
+    fill: #555555;
+    transition: fill 0.3s ease;
+}
+
+.community-links svg:hover {
+    fill: #192A56;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #808080;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 15px;
+    }
+}
