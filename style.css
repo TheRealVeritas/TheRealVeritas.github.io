@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #f7f5f4; /* UPDATED: Background color matched to logo */
     color: #333333;
     line-height: 1.6;
 }
@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-    height: 40px; /* Adjust as needed */
+    height: 60px; /* UPDATED: Logo size increased from 40px to 60px */
 }
 
 nav a {
@@ -105,9 +105,10 @@ ul {
 
 li {
     margin-bottom: 10px;
-    background-color: #F9F9F9;
+    background-color: #FFFFFF; /* Kept white for a subtle contrast with the new background */
     padding: 10px;
     border-left: 3px solid #192A56;
+    border-radius: 3px;
 }
 
 code {
